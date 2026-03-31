@@ -26,4 +26,4 @@ plaintext = pr.decrypt(
 
 os.system("cls")
 print("ciphertext: ", ciphertext[0:20], "...")
-print("plaintext:  ", plaintext)
+print("plaintext:  ", plaintext) 

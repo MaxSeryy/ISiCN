@@ -9,4 +9,4 @@ print("hash1:", hash1)
 
 chng = b"idk1"
 hash2 = hashlib.sha256(chng).hexdigest()
-print("hash2:", hash2)
+print("hash2:", hash2) 

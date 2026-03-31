@@ -12,4 +12,4 @@ with socket.create_connection((hn, port)) as sock:
         print(f"Subject: {ssock.getpeercert()['subject']}")
         print(f"Issuer: {ssock.getpeercert()['issuer']}")
         print(f"Valid from: {ssock.getpeercert()['notBefore']}")
-        print(f"Valid to: {ssock.getpeercert()['notAfter']}")
+        print(f"Valid to: {ssock.getpeercert()['notAfter']}") 
